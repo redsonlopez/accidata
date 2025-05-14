@@ -20,7 +20,8 @@ plot_config= {
 
 # Função para o Matplotlib
 def set_matplotlib():
-    plt.style.use(plot_config)
+    # plt.style.use(plot_config)
+    plt.rcParams.update(plot_config)
 
 # Função para o Seaborn
 def set_seaborn():

@@ -12,6 +12,11 @@ logs/
 !data/processed/README.md
 !data/external/README.md
 
+# Allow .parquet files
+!data/raw/*.parquet
+!data/processed/*.parquet
+!data/external/*.parquet
+
 # === NOTEBOOKS ===
 **/.ipynb_checkpoints
 *.ipynb~
